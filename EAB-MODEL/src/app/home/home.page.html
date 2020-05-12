@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      <center>EAB-MODEL</center>
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,12 +9,43 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Black</ion-title>
     </ion-toolbar>
   </ion-header>
 
+
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <!-- <strong>Ready to create an app?</strong> -->
+    <!-- Correo Elctronico textbox-->
+    <ion-item>
+      <ion-label position="stacked">Correo:</ion-label>
+      <ion-input 
+        inputmode="email"
+        placeholder="Ingrese el correo electronico">
+      </ion-input>
+    </ion-item>
+    <!-- Password TextBox-->
+    <ion-item>
+      <ion-label position="stacked">Contraseña</ion-label>
+      <ion-input 
+        clearOnEdit="false"
+        type="password"
+        placeholder="Escriba su contraseña">
+      </ion-input>
+    </ion-item>
+    <!-- Botones -->
+    <ion-button>Iniciar Sesion</ion-button>
+    <ion-button>Registrarse</ion-button>
   </div>
+  <!-- 
+  <div id="botones">
+   
+    <ion-item>
+      <ion-badge slot="start">11</ion-badge>
+      <ion-label>My Item</ion-label>
+      <ion-badge slot="end">22</ion-badge>
+    </ion-item>
+   
+  </div>
+  -->
 </ion-content>
