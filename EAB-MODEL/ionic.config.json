@@ -1,0 +1,7 @@
+{
+  "name": "EAB-MODEL",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
